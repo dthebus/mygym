@@ -11,13 +11,7 @@ package com.dthebus.mygym.DIP.correction;
  * @author student
  */
 public class Employee1 implements DepartmentsImpl {
- private String dep;
- 
-    public void setDep(String dep) {
-        this.dep = dep;
-    }
-
     public String getDep() {
-        return dep;    }
+        return "yoga";    }
     
 }

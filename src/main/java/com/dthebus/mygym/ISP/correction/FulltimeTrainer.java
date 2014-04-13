@@ -11,14 +11,11 @@ package com.dthebus.mygym.ISP.correction;
  * @author student
  */
 public class FulltimeTrainer implements FullTimeEmployee {
-    int salary;
     
     public int getSalary()
     {
-     return salary;
+     return 6500;
     }
 
-    public void setSalary(int money) {
-    salary= money;   
-    }
+    
 }

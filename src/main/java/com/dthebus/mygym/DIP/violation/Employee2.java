@@ -12,14 +12,11 @@ package com.dthebus.mygym.DIP.violation;
  */
 public class Employee2 {
     
-    private String department;
+    
     
     public String getDep()
     {
-    return department;
+    return "yoga";
     }
-    public void setDep(String dept)
-    {
-     department = dept;
-    }
+  
 }

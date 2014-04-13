@@ -10,16 +10,12 @@ package com.dthebus.mygym.ISP.violation;
  *
  * @author student
  */
-public class PartTimeTrainer implements Employees{
-int pay;
-    public int getPayment() {
-        return pay;
-       }
+public class FulltimeTrainer1 implements Employees {
+   
+    public int getPayment()
+    {
+     return 6500;
+    }
 
-    public void setPayment(int money) {
-        pay = money ;
-         }
-
-    
-    
+   
 }

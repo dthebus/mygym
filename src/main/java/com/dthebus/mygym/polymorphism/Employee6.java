@@ -4,12 +4,14 @@
  * and open the template in the editor.
  */
 
-package com.dthebus.mygym.inheretance;
+package com.dthebus.mygym.polymorphism;
 
 /**
  *
  * @author student
  */
-public class Trainer extends Employee {
+public interface Employee6 {
+
+   public abstract String name();
     
 }

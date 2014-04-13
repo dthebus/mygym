@@ -12,5 +12,5 @@ package com.dthebus.mygym.ISP.correction;
  */
 public interface FullTimeEmployee {
     int getSalary();
-    void setSalary(int money);
+    
 }

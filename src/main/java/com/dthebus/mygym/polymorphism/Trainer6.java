@@ -4,13 +4,15 @@
  * and open the template in the editor.
  */
 
-package com.dthebus.mygym.ISP.violation;
+package com.dthebus.mygym.polymorphism;
 
 /**
  *
  * @author student
  */
-public abstract interface Employees {
-     int getPayment();
-    
-}
+public class Trainer6 implements Employee6 {
+
+    public String name() {
+      
+    return "darren";
+}}

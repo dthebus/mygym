@@ -12,6 +12,6 @@ package com.dthebus.mygym.DIP.correction;
  */
 public abstract interface DepartmentsImpl {
   
-   void setDep(String dep);
+  
     String getDep();
 }

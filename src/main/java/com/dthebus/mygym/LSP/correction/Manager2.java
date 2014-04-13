@@ -11,16 +11,12 @@ package com.dthebus.mygym.LSP.correction;
  * @author student
  */
 public class Manager2 extends ManagementStaff{
-    private String trainingDepartment; 
    
     public String getDep()
     {
-        return trainingDepartment;
+        return "running";
     }
-    public void setDep(String dep)
-    {
-        trainingDepartment = dep;
-    }
+    
     
     
 }

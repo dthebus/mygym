@@ -4,16 +4,15 @@
  * and open the template in the editor.
  */
 
-package com.dthebus.mygym.polymorphism;
+package com.dthebus.mygym.inheretance;
 
 /**
  *
  * @author student
  */
-public class Employee {
+public abstract class Employee4 {
 
-    Employee() {
-        
-    }
-    
+public abstract String getName();
+
+
 }
